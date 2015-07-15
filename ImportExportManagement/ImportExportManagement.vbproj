@@ -1,0 +1,497 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{62F6A752-0677-4056-9EA4-E20AE4F11B82}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "ImportExportManagement"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "ImportExportManagement"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "Interop.CDO"
+                    AssemblyName = "Interop.CDO"
+                    HintPath = "..\..\..\Apps\UserManagement\bin\Interop.CDO.dll"
+                />
+                <Reference
+                    Name = "Interop.ADODB"
+                    AssemblyName = "Interop.ADODB"
+                    HintPath = "..\..\..\Apps\UserManagement\bin\Interop.ADODB.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AppSession.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BVI.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "calendar.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "calendar2.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Common.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DayPicker.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DayPicker.aspx.vb"
+                    DependentUpon = "DayPicker.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DayPicker.aspx.resx"
+                    DependentUpon = "DayPicker.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DayPicker.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DG.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ErrorObj.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ErrorPage.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ErrorPage.aspx.vb"
+                    DependentUpon = "ErrorPage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ErrorPage.aspx.resx"
+                    DependentUpon = "ErrorPage.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Feedlist.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Feedlist.aspx.vb"
+                    DependentUpon = "Feedlist.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Feedlist.aspx.resx"
+                    DependentUpon = "Feedlist.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FeedMaintain.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FeedMaintain.aspx.vb"
+                    DependentUpon = "FeedMaintain.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FeedMaintain.aspx.resx"
+                    DependentUpon = "FeedMaintain.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "InsufficientRights.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LogMaintain.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LogMaintain.aspx.vb"
+                    DependentUpon = "LogMaintain.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LogMaintain.aspx.resx"
+                    DependentUpon = "LogMaintain.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LogWorklist.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LogWorklist.aspx.vb"
+                    DependentUpon = "LogWorklist.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LogWorklist.aspx.resx"
+                    DependentUpon = "LogWorklist.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "menu.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "menu.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "menu_items.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "menu_tpl.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MonthPicker.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MonthPicker.aspx.vb"
+                    DependentUpon = "MonthPicker.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MonthPicker.aspx.resx"
+                    DependentUpon = "MonthPicker.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MonthPicker.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "RightsClass.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ScheduleMaintain.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ScheduleMaintain.aspx.vb"
+                    DependentUpon = "ScheduleMaintain.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ScheduleMaintain.aspx.resx"
+                    DependentUpon = "ScheduleMaintain.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "TimePicker.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "TimePicker.aspx.vb"
+                    DependentUpon = "TimePicker.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TimePicker.aspx.resx"
+                    DependentUpon = "TimePicker.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TimePicker.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "VersionHistory.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WeMoved.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WeMoved.aspx.vb"
+                    DependentUpon = "WeMoved.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WeMoved.aspx.resx"
+                    DependentUpon = "WeMoved.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cal\cal.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\icon_demo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\icon_docs.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\icon_download.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\icon_forum.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\icon_home.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\next.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\next_year.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\pixel.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\prev.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\prev_year.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "cal\tc.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\111_73.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\133.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\23_6.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\BRIEFCSE.ICO"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\BVILogo.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\CARDFIL1.ICO"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\Clip.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\Clipboard.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\DOCUMNT4.ICO"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\edit.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\FoneComp.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\genicon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\lev0_bg1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\lev0_bg2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\lev1_arrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\notepad.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\Notes.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\Train.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\Train2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "img\view.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

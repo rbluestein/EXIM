@@ -1,0 +1,3 @@
+Version Num			Date								Comments
+1.2						11/02/2008					FeedMaintain DisplayPage: Make carrier dropdown search case insensitive.
+1.21						11/10/2008					FeedSchedule IsDataValid: Requires selection of day or week or date of month.

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EXIMNotify", "EXIMNotify.vbproj", "{4BC3E659-D5BB-4834-9022-24E114D1DC8E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4BC3E659-D5BB-4834-9022-24E114D1DC8E}.Debug.ActiveCfg = Debug|.NET
+		{4BC3E659-D5BB-4834-9022-24E114D1DC8E}.Debug.Build.0 = Debug|.NET
+		{4BC3E659-D5BB-4834-9022-24E114D1DC8E}.Release.ActiveCfg = Release|.NET
+		{4BC3E659-D5BB-4834-9022-24E114D1DC8E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

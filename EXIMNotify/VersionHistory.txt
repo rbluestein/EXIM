@@ -1,0 +1,4 @@
+Version Num			Date								Comments
+1.5						10/20/2008					Added logic for new field: NumDaysForReceipt.
+1.51						11/07/2008					Turned off feed is due notice.
+1.2.064					08/07/2009					Send notices to dataexchange@benefitvision.com
